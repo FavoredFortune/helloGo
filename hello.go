@@ -14,6 +14,7 @@ func add(x int, y int) int {
 }
 
 func main() {
+	fmt.Println("Hello, world.")
 	fmt.Println(stringutil.Reverse("!oG ,olleH"))
 	fmt.Println("A fun number is", rand.Int())
 	fmt.Println("Who doesn't love", math.Pi, "?")
